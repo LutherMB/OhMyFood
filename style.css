@@ -156,10 +156,20 @@ a {
   border-radius: 15px;
   -webkit-box-shadow: 0px 2px 7px 0px #d1d1d1;
           box-shadow: 0px 2px 7px 0px #d1d1d1;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
 }
 
 .fonction__step > p {
   font-weight: bold;
+}
+
+.fonction__step:hover {
+  background: #f4ebff;
+}
+
+.fonction__step:hover > .fonction__icon {
+  color: #9356DC;
 }
 
 .fonction__number {
